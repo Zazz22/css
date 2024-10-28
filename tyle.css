@@ -1,0 +1,182 @@
+html:focus-within{
+    scroll-behavior: smooth !important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+}
+
+.fixed{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.logo{
+    height: 39px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.list-head{
+    gap: 2em;
+    margin: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.navlist a{
+    color: white;
+    padding-bottom: 3px;
+    transition: 0.5s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+    color: rgb(255, 153, 0);
+}
+
+#cari{
+    padding: 3%;
+    border-radius: 5px;
+    border: none;
+}
+.bar-cari{
+    width: 11em;
+    position: relative;
+}
+
+.bar-cari i{
+    color: black;
+    position: absolute;
+    right: 0.5em;
+    top: 20%;
+    font-weight: bold;
+}
+
+.img {
+    margin-top: -5%;
+    width: 100%;
+    height: 842px;
+    object-fit: cover;
+    
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.box {
+    padding: 2% 10%;
+    position: absolute;
+    bottom: -23.5%;
+    width: 100%;
+    height: 250px;
+    background: transparent;
+    text-align: center;
+}
+.box h3{
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.box p{
+    font-size: 1.5em;
+    margin: 2%;
+}
+
+.list-layan{
+    margin: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#layanan{
+    margin-top: 3%;
+}
+
+.list{
+    height: 100% ;
+    box-shadow: 0 0 10px -5px black;
+    flex: auto;
+    margin: 2%;
+    border-radius: 10px;
+}
+.list-text{
+    position: relative;
+}
+.list-img, .list-text{
+    height: 230px;
+}
+.list-img img{
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+.list-img {
+    background-color: silver;
+}
+.list-text{
+    text-align: center;
+    padding: 6%;
+}
+.list-text h2,p,a{
+    margin: 9% 0;
+}
+.list-text h2,a{
+    margin-top: 0;
+    font-weight: bold;
+}
+.list-text a{
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+    background: black;
+    border: 1px solid transparent;
+    color: white;
+    padding: 2% 10%;
+    border-radius: 50px;
+    transition: .5s;
+}
+.list-text a:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    transform:translatey(-5px);
+}
+.list-text a:active{
+    background-color: rgba(0, 0, 0, 0.603);
+    transform: translateY(1px);
+    transition: 5ms
+}
